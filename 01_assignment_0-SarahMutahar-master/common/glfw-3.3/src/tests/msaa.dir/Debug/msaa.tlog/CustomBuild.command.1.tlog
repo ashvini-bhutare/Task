@@ -1,0 +1,10 @@
+^F:\SHREEGANESHA\UPWORK\01_SARAH MUTAHAR\ASSIGNMENT_0-SARAHMUTAHAR-MASTER\ASSIGNMENT_0-SARAHMUTAHAR-MASTER\COMMON\GLFW-3.3\TESTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/ShreeGanesha/Upwork/01_Sarah Mutahar/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master" "-BF:/ShreeGanesha/Upwork/01_Sarah Mutahar/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master" --check-stamp-file "F:/ShreeGanesha/Upwork/01_Sarah Mutahar/assignment_0-SarahMutahar-master/assignment_0-SarahMutahar-master/common/glfw-3.3/src/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
