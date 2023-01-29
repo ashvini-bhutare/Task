@@ -24,6 +24,7 @@ Introductory OpenGL assignment: The purpose of this assignment is to show your f
 #instruction to run program 
 
 1. Go to below github link and download the project.
+https://github.com/ashvini-bhutare/Task/tree/main/01_assignment_0-SarahMutahar-master
 
 2. open project in Visual studio solution
 3. Run program.
